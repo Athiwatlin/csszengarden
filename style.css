@@ -1,0 +1,283 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap";
+body {
+  background-color: #49F0C8;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  color: #8f30e9;
+  text-align: center;
+  font-size: 3em;
+  background-image: url("img/bluebg.jpg");
+  text-shadow: 0 0 4px black;
+}
+
+.summary {
+  border: 2px solid black;
+  padding: 10px;
+  width: 40%;
+  background-color: #e6e7ab;
+  border-radius: 2rem;
+  animation-name: test1;
+  animation-duration: 4s;
+}
+
+@keyframes test1 {
+  from {
+    background-color: #e6e7ab;
+  }
+  to {
+    background-color: #4d96db;
+  }
+}
+.summary a:hover {
+  font-size: 2.5ex;
+}
+
+.preamble {
+  border: 2px solid black;
+  padding: 10px;
+  width: 50%;
+  background-color: #a8f1be;
+  margin-top: -150px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 650px;
+  border-radius: 2rem;
+  animation-name: test2;
+  animation-duration: 5s;
+}
+.preamble h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 50%;
+  background-color: #589fe2;
+}
+
+@keyframes test2 {
+  from {
+    background-color: #a8f1be;
+  }
+  to {
+    background-color: #b658e2;
+  }
+}
+.explanation {
+  border: 2px solid black;
+  padding: 10px;
+  width: 45%;
+  background-color: #32e7ab;
+  margin-top: 30px;
+  border-radius: 2rem;
+  animation-name: test3;
+  animation-duration: 6s;
+}
+.explanation h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 40%;
+  background-color: #47d5e7;
+}
+
+@keyframes test3 {
+  from {
+    background-color: #69b69c;
+  }
+  to {
+    background-color: #93e982;
+  }
+}
+.participation {
+  border: 2px solid black;
+  padding: 10px;
+  width: 45%;
+  background-color: #978bda;
+  margin-top: -310px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 700px;
+  border-radius: 2rem;
+  animation-name: test4;
+  animation-duration: 7s;
+}
+.participation h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #cd81e0;
+}
+
+.participation a:hover {
+  font-size: 2.5ex;
+}
+
+@keyframes test4 {
+  from {
+    background-color: #978bda;
+  }
+  to {
+    background-color: #1acdec;
+  }
+}
+.benefits {
+  border: 2px solid black;
+  padding: 10px;
+  width: 90%;
+  background-color: #5ed7e2;
+  margin-top: 30px;
+  margin-left: 40px;
+  border-radius: 2rem;
+  animation-name: test5;
+  animation-duration: 9s;
+}
+.benefits h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #e669bc;
+}
+
+@keyframes test5 {
+  from {
+    background-color: #5ed7e2;
+  }
+  to {
+    background-color: #665cf3;
+  }
+}
+.requirements {
+  border: 2px solid black;
+  padding: 10px;
+  width: 90%;
+  background-color: #a3e053;
+  margin-top: 30px;
+  margin-left: 40px;
+  border-radius: 2rem;
+  animation-name: test6;
+  animation-duration: 11s;
+}
+.requirements h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #697ce6;
+}
+
+@keyframes test6 {
+  from {
+    background-color: #a3e053;
+  }
+  to {
+    background-color: #e29dd9;
+  }
+}
+.requirements a:hover {
+  font-size: 2.5ex;
+}
+
+footer {
+  border-left: 6px solid red;
+  padding: 10px;
+  width: 25%;
+  background-color: #e6e7b7;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 500px;
+  border-radius: 2rem;
+  box-shadow: 5px 10px #eb53ca;
+}
+
+footer a {
+  color: red;
+  opacity: 0.5;
+  margin: 0px 16px;
+  font-size: 1.5em;
+}
+
+footer a:hover {
+  font-size: 2em;
+  color: blue;
+  opacity: 1;
+}
+
+.design-selection {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #be69e6;
+  margin-top: 50px;
+  margin-left: 40px;
+  border-radius: 2rem;
+}
+.design-selection h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #e2bfbf;
+}
+
+.design-selection a:hover {
+  font-size: 2.5ex;
+}
+
+.wrapper :hover {
+  background-color: cornflowerblue;
+}
+
+.select:hover {
+  background-color: #e2bfbf;
+}
+
+.design-archives {
+  border: 2px solid black;
+  padding: 10px;
+  width: 20%;
+  background-color: #be69e6;
+  border-radius: 2rem;
+  margin-top: -310px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 600px;
+}
+.design-archives h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #e2bfbf;
+}
+
+.design-archives a:hover {
+  font-size: 2.5ex;
+}
+
+.archives:hover {
+  background-color: #e2bfbf;
+}
+
+.zen-resources {
+  border: 2px solid black;
+  padding: 10px;
+  width: 20%;
+  background-color: #be69e6;
+  border-radius: 2rem;
+  margin-top: -200px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 1000px;
+}
+.zen-resources h3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+  background-color: #e2bfbf;
+}
+
+.zen-resources a:hover {
+  font-size: 2.5ex;
+}
+
+.resources:hover {
+  background-color: #e2bfbf;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,235 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap";
+$first-font-family:'Oswald', sans-serif;
+body{
+    background-color:#49F0C8 ;
+    font-family: $first-font-family;
+}
+header{
+    color:rgb(143, 48, 233);
+    text-align: center;
+    font-size: 3em;
+    background-image: url("img/bluebg.jpg");
+    text-shadow: 0 0 4px black;
+}
+.summary{
+    border:2px solid black;
+    padding: 10px;
+    width :40%;
+    background-color: rgb(230, 231, 171);
+    border-radius: 2rem;
+    animation-name: test1;
+    animation-duration: 4s;
+}
+@keyframes test1 {
+    from {background-color:rgb(230, 231, 171);}
+    to {background-color:rgb(77, 150, 219);}
+    }
+.summary a:hover {
+    font-size: 2.5ex;
+    }
+.preamble{
+    border:2px solid black;
+    padding: 10px;
+    width :50%;
+    background-color: rgb(168, 241, 190);
+    margin-top: -150px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 650px;
+    border-radius: 2rem;
+    animation-name: test2;
+    animation-duration: 5s;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 50%;
+        background-color: rgb(88, 159, 226);
+    }
+}
+@keyframes test2 {
+    from {background-color:rgb(168, 241, 190);}
+    to {background-color:rgb(182, 88, 226);}
+  }
+.explanation {
+    border:2px solid black;
+    padding: 10px;
+    width: 45%;
+    background-color: rgb(50, 231, 171);
+    margin-top: 30px;
+    border-radius: 2rem;
+    animation-name: test3;
+    animation-duration: 6s;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 40%;
+        background-color: rgb(71, 213, 231);
+    }
+}
+@keyframes test3 {
+    from {background-color:rgb(105, 182, 156);}
+    to {background-color:rgb(147, 233, 130);}
+  }
+.participation{
+    border:2px solid black;
+    padding: 10px;
+    width: 45%;
+    background-color: rgb(151, 139, 218);
+    margin-top: -310px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 700px;
+    border-radius: 2rem;
+    animation-name: test4;
+    animation-duration: 7s;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(205, 129, 224);
+    }
+}
+.participation a:hover {
+    font-size: 2.5ex;
+    }
+@keyframes test4 {
+    from {background-color:rgb(151, 139, 218);}
+    to {background-color:rgb(26, 205, 236);}
+  }
+.benefits{
+    border:2px solid black;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(94, 215, 226);
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 2rem;
+    animation-name: test5;
+    animation-duration: 9s;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(230, 105, 188);
+    }
+}
+@keyframes test5 {
+    from {background-color:rgb(94, 215, 226);}
+    to {background-color:rgb(102, 92, 243);}
+  }
+.requirements{
+    border:2px solid black;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(163, 224, 83);
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 2rem;
+    animation-name: test6;
+    animation-duration: 11s;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(105, 124, 230);
+    }
+}
+@keyframes test6 {
+    from {background-color:rgb(163, 224, 83);}
+    to {background-color:rgb(226, 157, 217);}
+  }
+.requirements a:hover {
+    font-size: 2.5ex;
+    }
+footer{
+    border-left: 6px solid red;
+    padding: 10px;
+    width: 25%;
+    background-color: rgb(230, 231, 183);
+    text-align: center;
+    margin-top: 30px; 
+    margin-left: 500px;
+    border-radius: 2rem;
+    box-shadow:5px 10px rgb(235, 83, 202);
+}
+footer a {
+    color: red;
+    opacity: 0.5;
+    margin: 0px 16px; 
+    font-size: 1.5em; 
+}
+footer a:hover{
+    font-size: 2em;
+    color: blue;
+    opacity: 1;
+}
+.design-selection{
+    border:2px solid black;
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(190, 105, 230);
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 2rem;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(226, 191, 191);
+    }
+}
+.design-selection a:hover {
+    font-size: 2.5ex;
+    }
+.wrapper :hover{
+    background-color: cornflowerblue;
+}
+.select:hover{
+    background-color:rgb(226, 191, 191);
+}
+.design-archives{
+    border:2px solid black;
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(190, 105, 230);
+    border-radius: 2rem;
+    margin-top: -310px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 600px;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(226, 191, 191);
+    }
+}
+.design-archives a:hover {
+    font-size: 2.5ex;
+    }
+.archives:hover{
+        background-color:rgb(226, 191, 191);
+    }
+.zen-resources{
+    border:2px solid black;
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(190, 105, 230);
+    border-radius: 2rem;
+    margin-top: -200px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 1000px;
+    h3{
+        border:2px solid black;
+        padding: 10px;
+        width: 30%;
+        background-color: rgb(226, 191, 191);
+    }
+}
+.zen-resources a:hover {
+    font-size: 2.5ex;
+    }
+.resources:hover{
+    background-color:rgb(226, 191, 191);
+    }
